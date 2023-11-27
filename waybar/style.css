@@ -90,6 +90,7 @@ window#waybar {
 
 #battery {
     color: #9ece6a;
+    margin: 8px;
 }
 
 #battery.charging {
@@ -103,13 +104,10 @@ window#waybar {
 }
 
 #backlight {
-    background-color: #24283b;
+    background-color: transparent;
     color: #db4b4b;
     border-radius: 0px 0px 0px 0px;
-    margin: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px 0px;
+    margin: 4px;
 }
 
 #network {
@@ -155,9 +153,8 @@ window#waybar {
 }
 
 #custom-playerctl {
-    background: #282828;
-    padding-left: 6px;
-    padding-right: 7px;
+    background: transparent;
+    padding-right: 3px;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -168,8 +165,6 @@ window#waybar {
 
 #custom-playerlabel {
     background: transparent;
-    padding-left: 10px;
-    padding-right: 15px;
     border-radius: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -195,7 +190,7 @@ window#waybar {
 }
 
 #cpu {
-    background-color: #282828;
+    background-color: transparent;
     border-radius: 16px;
     margin: 5px;
     margin-left: 5px;
@@ -205,7 +200,7 @@ window#waybar {
 }
 
 #memory {
-    background-color: #282828;
+    background-color: transparent;
     border-radius: 16px;
     margin: 5px;
     margin-left: 5px;
@@ -215,7 +210,7 @@ window#waybar {
 }
 
 #disk {
-    background-color: #282828;
+    background-color: transparent;
     border-radius: 16px;
     margin: 5px;
     margin-left: 5px;

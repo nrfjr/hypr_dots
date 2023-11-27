@@ -19,13 +19,14 @@
   "modules-right": [
     "tray",
     "battery",
+    "backlight",
     "network",
     "pulseaudio",
     "clock"
   ],
   // Modules configuration
   "clock": {
-    "format": "  {:%H:%M}",
+    "format": "  {:%I:%M %p}",
     "tooltip": "true",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "  {:%d/%m}"
@@ -54,8 +55,8 @@
     "on-click": "playerctl previous",
     "on-click-right": "playerctl next",
     "format-icons": {
-      "Playing": "<span foreground='#b7abf7'>󰒮 󰐌 󰒭</span>",
-      "Paused": "<span foreground='#7d77a1'>󰒮 󰏥 󰒭</span>"
+      "Playing": "<span foreground='#b7abf7'> 󰐌 </span>",
+      "Paused": "<span foreground='#7d77a1'> 󰏥 </span>"
     }
   },
   "custom/playerlabel": {
@@ -67,8 +68,8 @@
     "on-click": "playerctl previous",
     "on-click-right": "playerctl next",
     "format-icons": {
-      "Playing": "<span foreground='#b7abf7'>󰒮 󰐌 󰒭</span>",
-      "Paused": "<span foreground='#7d77a1'>󰒮 󰏥 󰒭</span>"
+      "Playing": "<span foreground='#b7abf7'> 󰐌 </span>",
+      "Paused": "<span foreground='#7d77a1'> 󰏥 </span>"
     }
   },
   "battery": {
@@ -77,10 +78,11 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}  {capacity}%",
-    "format-charging": "{capacity}% ",
-    "format-plugged": "{capacity}% ",
-    "format-alt": "{icon}  {time}",
+    "format": "{icon}",
+    "format-charging": "",
+    "format-plugged": "",
+    "format-alt": "{icon}   {capacity} %",
+    "tooltip-format": "{capacity} %",
     "format-icons": [
       "",
       "",
@@ -119,7 +121,9 @@
     "spacing": 5
   },
   "backlight": {
-    "format": "{icon} {percent}%",
+    "format": "{icon}",
+    "tooltip-format": "{percent} %",
+    "format-alt": "{icon}  {percent} %",
     "format-icons": [
       "",
       "",
@@ -133,8 +137,9 @@
     ]
   },
   "pulseaudio": {
-    "format": "{icon} {volume} %",
+    "format": "{icon}",
     "format-muted": "󰝟",
+    "tooltip-format": "{volume} %",
     "format-icons": {
       "default": [
         "󰕿",
@@ -155,6 +160,7 @@
   },
   "custom/launcher": {
     "format": "🐈",
+    "tooltip-format": "kitty",
     "on-click": "kitty"
   },
   "custom/wf-recorder": {

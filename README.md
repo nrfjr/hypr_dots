@@ -2,13 +2,19 @@
 Arch Linux / Hyprland dotfiles preference.
 
 Screenshots:
-![1701191640](https://github.com/nrfjr/hypr_dots/assets/90370309/930889a3-5e41-46b1-a8a6-f698f913ac3b)
 
-![1701192225](https://github.com/nrfjr/hypr_dots/assets/90370309/9180ec23-e7f6-498f-8332-2639debbef8f)
+![1701574189](https://github.com/nrfjr/hypr_dots/assets/90370309/25be3c56-b009-42b5-82f8-db44d30dbfa9)
 
-![1701192302](https://github.com/nrfjr/hypr_dots/assets/90370309/570d44ee-7133-4bfa-8cb3-256378ba8c50)
+![1701574161](https://github.com/nrfjr/hypr_dots/assets/90370309/fb8cbe1f-6a3e-4675-bec5-efd0a2eb054b)
 
+![1701574226](https://github.com/nrfjr/hypr_dots/assets/90370309/62da8d5c-64af-4b4d-b822-d478e263c218)
 
 
 ## Source dotfile
 🐧 [Linuxmobile](https://github.com/linuxmobile/hyprland-dots) ©
+
+&nbsp;
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>

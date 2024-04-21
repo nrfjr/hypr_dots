@@ -1,6 +1,6 @@
 * {
     border-radius: 5px;
-    font-family: Noto Sans CJK, FontAwesome;
+    font-family: Bubble Rainbow, FontAwesome;
     font-size: 12px;
     font-style: normal;
     min-height: 10px;
@@ -13,7 +13,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: #282828;
+    background: transparent;
     margin: 5px 5px 5px 5px;
     border-radius: 10px;
     font-weight: normal;
@@ -76,8 +76,8 @@ window#waybar {
 
 #clock {
     color: #907ef2;
-    background-color: #282828;
-    border-radius: 24px 5px 5px 0px;
+    background: linear-gradient(90deg, transparent, #282828);
+    border-radius: 0px 5px 5px 0px;
     padding-left: 13px;
     padding-right: 15px;
     margin-right: 0px;
@@ -137,8 +137,8 @@ window#waybar {
 
 #custom-launcher {
     color: #8c78fa;
-    background-color: #282828;
-    border-radius: 5px 0px 24px 5px;
+    background: linear-gradient(270deg, transparent, #282828);
+    border-radius: 5px 0px 0px 5px;
     margin: 0px 0px 0px 0px;
     padding: 0 20px 0 13px;
     font-size: 16px;
@@ -150,6 +150,17 @@ window#waybar {
     border-radius: 8px;
     margin-right: -5px;
     margin-left: 10px;
+}
+
+#cava {
+    background: transparent;
+    padding-right: 3px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
 }
 
 #custom-playerctl {
